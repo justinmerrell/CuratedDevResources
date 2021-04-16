@@ -17,6 +17,9 @@ Formatting standards should follow [Conventional Commits](https://www.convention
 Tools:
 [conventional-commit](https://pypi.org/project/conventional-commit/)
 
+Enforcement:
+[enforce-git-message](https://github.com/prahladyeri/enforce-git-message)
+
 ## DOCUMENTATION
 Everyon's favorite part of development is creating well formatted, useful documentation.
 
