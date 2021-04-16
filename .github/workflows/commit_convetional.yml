@@ -1,5 +1,5 @@
 name: Pull Request Linter
-on: [pull_request, push]
+  on: [pull_request, push]
     branches:
       - master-ci
 
