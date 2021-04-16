@@ -8,6 +8,11 @@ The format of this guide will mimic a development workflow process and provide t
 - Resources & Tools/Utilities
 - Enforcement CI/CD
 
+Enforcement is intended to be implemented at a project level that can help maintain consistancy between contributors vs local envorcement tools that help the individual developer.
+
+# Workflow
+Establishing a workflow prior to diving into a project goes a long ways. The workflow folder provides some information on things to consider such as versioning.
+
 ## GIT
 Agnostic of the language, framework or platform, most projects are going to be tied togeather by the usage of git.
 
@@ -16,10 +21,9 @@ Formatting standards should follow [Conventional Commits](https://www.convention
 
 Tools:
 [conventional-commit](https://pypi.org/project/conventional-commit/)
+[enforce-git-message](https://github.com/prahladyeri/enforce-git-message)
 
 Enforcement:
-[enforce-git-message](https://github.com/prahladyeri/enforce-git-message)*
-*make sure to make enforcable
 
 
 ## DOCUMENTATION
