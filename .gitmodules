@@ -1,0 +1,6 @@
+[submodule "static-analysis"]
+	path = static-analysis
+	url = git@github.com:analysis-tools-dev/static-analysis.git
+[submodule "ext_repos/static-analysis"]
+	path = ext_repos/static-analysis
+	url = git@github.com:analysis-tools-dev/static-analysis.git
