@@ -1,6 +1,10 @@
-name: Linters
+name: Commit Convention
 
-on: [pull_request]
+on:
+  push:
+    branches: [master]
+
+  workflow_dispatch:
 
 jobs:
   validate-commits:
