@@ -1,18 +1,12 @@
-name: Pull Request Linter
-on: 
-  pull_request:
-    branches: 
-      - master-ci
+name: Linters
 
-  workflow_dispatch:
+on: [pull_request]
 
 jobs:
-  conventional:
-    name: Conventional PR
+  validate-commits:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
-      - uses: beemojs/conventional-pr-action@v2
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Check out code into the Go module directory
+        uses: actions/checkout@v1
+      - name: Commitsar check
+        uses: docker://aevea/commitsar
