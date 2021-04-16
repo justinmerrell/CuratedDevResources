@@ -5,7 +5,7 @@ Best practices are constantly changing and if you have ever found yourself think
 
 The format of this guide will mimic a development workflow process and provide theory, tool and enforcement for each area.
 - Best Practice (Thorey)
-- Resources & Tools
+- Resources & Tools/Utilities
 - Enforcement CI/CD
 
 ## GIT
