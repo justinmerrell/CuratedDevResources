@@ -18,7 +18,9 @@ Tools:
 [conventional-commit](https://pypi.org/project/conventional-commit/)
 
 Enforcement:
-[enforce-git-message](https://github.com/prahladyeri/enforce-git-message)
+[enforce-git-message](https://github.com/prahladyeri/enforce-git-message)*
+*make sure to make enforcable
+
 
 ## DOCUMENTATION
 Everyon's favorite part of development is creating well formatted, useful documentation.
