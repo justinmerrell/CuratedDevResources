@@ -1,7 +1,7 @@
 name: Pull Request Linter
 on:
-  push:
-    branches: [ master ]
+  pull-request:
+    branches: [ master-ci ]
 
   workflow_dispatch:
 
