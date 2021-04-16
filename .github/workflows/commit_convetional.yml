@@ -5,6 +5,9 @@ on:
       - opened
       - edited
       - reopened
+
+  workflow_dispatch:
+
 jobs:
   lint-pr:
     name: Lint pull request title
