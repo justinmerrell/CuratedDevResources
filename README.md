@@ -10,6 +10,8 @@ The format of this guide will mimic a development workflow process and provide t
 
 Enforcement is intended to be implemented at a project level that can help maintain consistancy between contributors vs local envorcement tools that help the individual developer.
 
+https://www.mokkapps.de/blog/how-to-automatically-generate-a-helpful-changelog-from-your-git-commit-messages/
+
 # Workflow
 Establishing a workflow prior to diving into a project goes a long ways. The workflow folder provides some information on things to consider such as versioning.
 
@@ -27,7 +29,16 @@ Enforcement:
 [Commister CI](https://commitsar.tech/)
 
 ## DOCUMENTATION
-Everyon's favorite part of development is creating well formatted, useful documentation.
+Everyon's favorite part of development is creating well formatted, useful documentation. Documentation can be split into two categories, internal and external.
+
+### Internal Documentation
+Any documentation that is intended to be consumed by the developer(s).
 
 Tools:
 [auto-changelog](https://pypi.org/project/auto-changelog/)
+
+### External Documentation
+Any documentation that will be refrenced by external users, example of this documention includes API and guides.
+
+API Documentation Generator
+[slatedocs](https://github.com/slatedocs/slate)
