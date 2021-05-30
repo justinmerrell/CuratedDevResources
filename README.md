@@ -12,7 +12,7 @@ The format of this guide will be to mimic a development workflow process and pro
 
 ### Thorey
 
-Arguably the most critical component to maintain consistancy within and amongst projets is having a written refrence/guide/standards/thorey. All the tools will stem from the thorey to simplify the implementation.
+Arguably the most critical component to maintain consistancy within and amongst projets is having a written refrence/guide/standards/thorey/convention. All the tools will stem from the thorey to simplify the implementation.
 
 ### Utility
 
@@ -52,6 +52,10 @@ Enforcement:
 ## DOCUMENTATION
 
 Everyon's favorite part of development is creating well formatted, useful documentation. Documentation can be split into two categories, internal and external.
+
+### README
+
+[Convention For Standard README.md](https://github.com/RichardLitt/standard-readme)
 
 ### Internal Documentation
 
